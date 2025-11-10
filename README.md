@@ -24,7 +24,7 @@
 
 ---
 
-## 🚀 Fase 0 — Aquecimento conceitual: contratos de capacidade (sem código) [↗](src/fase-00-aquecimento/README.md)
+## 🚀 Fase 0 — Aquecimento conceitual: contratos de capacidade (sem código) [↗](src/fase-00-aquecimento)
 
 ### ✅ Objetivo da Fase
 - Enunciado: Liste 2 situações reais com mesmo objetivo e peças alternáveis. Nomeie o contrato (o
@@ -34,7 +34,7 @@ uma política simples (ex.: “à noite usar A; em urgência, B”).
 
 ---
 
-## 🚀 Fase 1 — Heurística antes do código (mapa mental) [↗](src/fase-01-procedural/README.md)
+## 🚀 Fase 1 — Heurística antes do código (mapa mental) [↗](src/fase-01-procedural)
 
 ### ✅ Objetivo da Fase
 - Enunciado: Desenhe um mapa de evolução para um problema trivial escolhido pela equipe.
@@ -44,7 +44,7 @@ previstos.
 
 ---
 
-## 🚀 Fase 2 — Procedural mínimo (ex.: formatar texto) [↗](src/fase-02-oo-sem-interface/README.md)
+## 🚀 Fase 2 — Procedural mínimo (ex.: formatar texto) [↗](src/fase-02-oo-sem-interface)
 
 ### ✅ Objetivo da Fase
 - Enunciado: Implemente a ideia de modos (mínimo 3 + padrão) para um objetivo simples.
