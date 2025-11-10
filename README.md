@@ -19,7 +19,8 @@
 ## 📌 Sumário
 
 - [Fase 0 – Aquecimento conceitual](#-fase-0--aquecimento-conceitual-contratos-de-capacidade-sem-código-)
-- [Fase 1 – Heurística antes do código](#-fase-1--heurística-antes-do-código-mapa-mental)
+- [Fase 1 – Heurística antes do código](#-fase-1--heurística-antes-do-código-mapa-mental-)
+- [Fase 2 — Procedural mínimo](#-fase-2--procedural-mínimo-ex-formatar-texto-)
 
 ---
 
@@ -40,5 +41,14 @@ uma política simples (ex.: “à noite usar A; em urgência, B”).
 - Descrição: Uma página com: (1) versão procedural (onde surgem if/switch ), (2) OO sem interface
 (quem muda o quê), (3) com interface (qual contrato permite alternar). Liste 3 sinais de alerta
 previstos.
+
+---
+
+## 🚀 Fase 2 — Procedural mínimo (ex.: formatar texto) [↗](src/fase-02-oo-sem-interface/README.md)
+
+### ✅ Objetivo da Fase
+- Enunciado: Implemente a ideia de modos (mínimo 3 + padrão) para um objetivo simples.
+- Descrição: Entregue função/fluxo e 5 cenários de teste/fronteira descritos em texto. Explique em
+poucas linhas por que essa abordagem não escala.
 
 ---
