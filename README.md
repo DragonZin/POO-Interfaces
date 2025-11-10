@@ -18,11 +18,12 @@
 
 ## 📌 Sumário
 
-- [Fase 0 – Aquecimento conceitual](#fase-0)
+- [Fase 0 – Aquecimento conceitual](#-fase-0--aquecimento-conceitual-contratos-de-capacidade-sem-código-)
+- [Fase 1 – Heurística antes do código](#-fase-1--heurística-antes-do-código-mapa-mental)
 
 ---
 
-## 🚀 Fase 0 — Aquecimento conceitual: contratos de capacidade (sem código)
+## 🚀 Fase 0 — Aquecimento conceitual: contratos de capacidade (sem código) [↗](src/fase-00-aquecimento/README.md)
 
 ### ✅ Objetivo da Fase
 - Enunciado: Liste 2 situações reais com mesmo objetivo e peças alternáveis. Nomeie o contrato (o
@@ -30,10 +31,14 @@ que) e duas possíveis implementações (como).
 - Descrição: Refere-se ao aquecimento do guia. Em 4–6 linhas por caso: objetivo, contrato, duas peças e
 uma política simples (ex.: “à noite usar A; em urgência, B”).
 
-### ✅ Descrição dos passos seguidos
+---
 
-- Objetivo: Definimos o que se deseja alcançar — neste caso, garantir segurança no acesso físico e digital da empresa.
-- Contrato: Elaboramos uma frase que descreve o “o que deve ser feito”, sem mencionar o “como”.
-- Implementações: Definição da tecnologia principal e exemplos de uso; foco na opção mais forte/segura; inclui parênteses para variantes.
-- Política: Sentença de condição com seta (“→”) para mapear contexto → escolha (A ou B); prioriza critério por criticidade.
-- Risco/Observação: Contraste entre benefícios e fragilidades; linguagem neutra, menciona ameaças típicas e requisitos (ex.: armazenamento seguro).
+## 🚀 Fase 1 — Heurística antes do código (mapa mental) [↗](src/fase-01-procedural/README.md)
+
+### ✅ Objetivo da Fase
+- Enunciado: Desenhe um mapa de evolução para um problema trivial escolhido pela equipe.
+- Descrição: Uma página com: (1) versão procedural (onde surgem if/switch ), (2) OO sem interface
+(quem muda o quê), (3) com interface (qual contrato permite alternar). Liste 3 sinais de alerta
+previstos.
+
+---
