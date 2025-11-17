@@ -21,6 +21,8 @@
 - [Fase 0 – Aquecimento conceitual](#-fase-0--aquecimento-conceitual-contratos-de-capacidade-sem-código-)
 - [Fase 1 – Heurística antes do código](#-fase-1--heurística-antes-do-código-mapa-mental-)
 - [Fase 2 — Procedural mínimo](#-fase-2--procedural-mínimo-ex-formatar-texto-)
+- [Fase 3 — OO sem interface ](#-fase-3--oo-sem-interface-)
+- [Fase 4 — Interface plugável e testável](#-fase-4--interface-plugável-e-testável-)
 
 ---
 
@@ -34,7 +36,7 @@ uma política simples (ex.: “à noite usar A; em urgência, B”).
 
 ---
 
-## 🚀 Fase 1 — Heurística antes do código (mapa mental) [↗](src/fase-01-procedural)
+## 🚀 Fase 1 — Heurística antes do código (mapa mental) [↗](src/fase-01-heuristica)
 
 ### ✅ Objetivo da Fase
 - Enunciado: Desenhe um mapa de evolução para um problema trivial escolhido pela equipe.
@@ -44,11 +46,29 @@ previstos.
 
 ---
 
-## 🚀 Fase 2 — Procedural mínimo (ex.: formatar texto) [↗](src/fase-02-oo-sem-interface)
+## 🚀 Fase 2 — Procedural mínimo (ex.: formatar texto) [↗](src/fase-02-procedural)
 
 ### ✅ Objetivo da Fase
 - Enunciado: Implemente a ideia de modos (mínimo 3 + padrão) para um objetivo simples.
 - Descrição: Entregue função/fluxo e 5 cenários de teste/fronteira descritos em texto. Explique em
 poucas linhas por que essa abordagem não escala.
+
+---
+
+## 🚀 Fase 3 — OO sem interface [↗](src/fase-03-oo-sem-interface)
+
+### ✅ Objetivo da Fase
+- Enunciado: Transforme a solução anterior em uma hierarquia com variações concretas e base comum.
+- Descrição: Substitua decisões por polimorfismo. Mantenha classes concretas restritas a sua
+responsabilidade e descreva o que melhorou/ficou rígido.
+
+---
+
+## 🚀 Fase 4 — Interface plugável e testável [↗](src/fase-04-com-interfaces)
+
+### ✅ Objetivo da Fase
+- Enunciado: Defina um contrato claro e refatore o cliente para depender dele.
+- Descrição: Explique como alternar implementações sem mudar o cliente e como dobrar a
+dependência em testes (injeção simples).
 
 ---

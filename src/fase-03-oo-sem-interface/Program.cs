@@ -1,7 +1,7 @@
 using System;
 using System.Collections.Generic;
 
-namespace Fase02_ProceduralAuth
+namespace Fase03_ProceduralAuth
 {
     /// Modo de autenticação — este enum será o switch principal (procedural).
     /// Na Fase 3 esse switch deverá desaparecer e cada modo virar uma implementação concreta.
