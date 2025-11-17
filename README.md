@@ -23,6 +23,7 @@
 - [Fase 2 — Procedural mínimo](#-fase-2--procedural-mínimo-ex-formatar-texto-)
 - [Fase 3 — OO sem interface ](#-fase-3--oo-sem-interface-)
 - [Fase 4 — Interface plugável e testável](#-fase-4--interface-plugável-e-testável-)
+- [Fase 5 — Essenciais de interfaces em C](#-fase-5--essenciais-de-interfaces-em-c-)
 
 ---
 
@@ -70,5 +71,14 @@ responsabilidade e descreva o que melhorou/ficou rígido.
 - Enunciado: Defina um contrato claro e refatore o cliente para depender dele.
 - Descrição: Explique como alternar implementações sem mudar o cliente e como dobrar a
 dependência em testes (injeção simples).
+
+---
+
+## 🚀 Fase 5 — Essenciais de interfaces em C [↗](src/fase-05-repository-inmemory)
+
+### ✅ Objetivo da Fase
+- Enunciado: Proponha duas interfaces do seu domínio e uma classe que implementa duas.
+- Descrição: Explique quando usar implementação explícita, quando genéricos com constraints
+ajudam e quando default members devem ser evitados.
 
 ---
