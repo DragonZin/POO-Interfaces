@@ -1,4 +1,4 @@
-using System;
+﻿using System;
 using System.Collections.Generic;
 
 namespace Fase03_ProceduralAuth
@@ -17,7 +17,7 @@ namespace Fase03_ProceduralAuth
 
 
     /// Resultado simplificado de autenticação
-  
+
     public class AuthResult
     {
         public bool Success { get; set; }
@@ -95,12 +95,12 @@ namespace Fase03_ProceduralAuth
             }
 
             Console.WriteLine("=== Fim dos cenários ===");
-       }
+        }
 
-   
+
         /// Função procedural central: escolhe a estratégia via switch e executa.
         /// NA FASE 3: remover este switch — injetar/obter a implementação adequada.
-               public static AuthResult AuthenticateProcedural(AuthRequest request)
+        public static AuthResult AuthenticateProcedural(AuthRequest request)
         {
             if (request == null) return AuthResult.Fail("Requisição nula");
 
